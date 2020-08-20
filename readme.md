@@ -12,10 +12,10 @@ IDA 的菜单栏有一处功能：`Debugger` -> `Debugger windows` -> `Stack tra
 
 ### 1. 安装 pyelftools >= 0.27
 
-当前最新版是0.26，该版本暂不提供 arm ehabi 的解析功能，我完善该功能后已提交 pull request，但还没 merge，暂时需要从我的仓库 [https://www.github.com/LeadroyaL/pyelftools/](https://www.github.com/LeadroyaL/pyelftools/) 的 master 分支安装。
+当前最新版是0.26，该版本暂不提供 arm ehabi 的解析功能，我完善该功能后已提交 [pull request](https://github.com/eliben/pyelftools/pull/328) ，需要官方repo自行安装 [https://github.com/eliben/pyelftools](https://github.com/eliben/pyelftools) 。
 
 ```
-git clone https://github.com/LeadroyaL/pyelftools.git --depth=1
+git clone https://github.com/eliben/pyelftools.git --depth=1
 cd pyelftools
 python setup.py install --old-and-unmanageable
 ```
